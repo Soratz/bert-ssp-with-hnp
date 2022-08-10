@@ -51,4 +51,6 @@ trainer = Trainer(
     data_collator=data_collator,
     train_dataset=dataset
 )
+
+trainer.train()
 ```
